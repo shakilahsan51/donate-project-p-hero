@@ -1,0 +1,275 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #030303), url(images/donation3.jpg);
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-properties {
+    height: 500px;
+    position: absolute;
+    top: 20%;
+    width: 70%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-title h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+.header-description {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 70%;
+}
+
+.header .btn {
+    text-align: center;
+    /* display: block; */
+}
+
+.header .btn button {
+    margin-top: 30px;
+    padding: 16px 22px;
+    background-color: #da434f;
+    font-size: 27px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+/*______________donate-today___________*/
+
+.donate-today {
+    height: 900px;
+    position: relative;
+    width: 70%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-title {
+    font-size: 3rem;
+    padding: 20px 0;
+}
+
+.section2-description {
+    text-align: center;
+    font-size: 2rem;
+    color: #6b6868;
+    margin-bottom: 70px;
+}
+
+.section2-taka {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.taka {
+    height: 200px;
+    width: 200px;
+    background-color: #f5f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #7a7979;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.other-amount {
+    font-size: 1.7rem;
+    color: #9e9e9e;
+    margin-bottom: 15px;
+}
+
+.donate-today hr {
+    height: 3px;
+    width: 90%;
+    background-color: #cac7c7;
+    margin-bottom: 35px;
+}
+
+button {
+    padding: 20px 22px;
+    background-color: #da434f;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+/* donate-plan */
+
+.donate-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.section3-card {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.plan-card1 {
+    height: 480px;
+    width: 480px;
+    padding: 80px 30px;
+    background-color: rgb(212, 245, 245);
+    border-radius: 10px;
+
+}
+
+.plan-card2 {
+    height: 480px;
+    width: 480px;
+    padding: 80px 30px;
+    background-color: #d3b8b8;
+    border-radius: 10px;
+
+}
+
+.plan-card3 {
+    height: 480px;
+    width: 480px;
+    padding: 80px 30px;
+    background-color: rgb(212, 238, 206);
+    border-radius: 10px;
+
+}
+
+
+.plan-card-h3 {
+    font-size: 2.3rem;
+    padding: 30px 0px;
+}
+
+.plan-card-p {
+    font-size: 1.5rem;
+    padding: 30px 0px;
+    color: #383636;
+}
+
+
+
+/*____________Need Section_____________  */
+
+
+.need-section {
+    width: 75%;
+    display: flex;
+    gap: 100px;
+    margin-left: 8.5%;
+    margin-bottom: 180px;
+}
+
+.image-class {
+    width: 50%;
+    height: 600px;
+}
+
+.need-properties {
+    width: 45%;
+    margin-top: 5%;
+    padding: 20px 0;
+}
+
+.need-title {
+    font-size: 4rem;
+}
+
+
+
+/* ____________Update Section____________ */
+
+.update-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.update-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.update-description {
+    text-align: center;
+    font-size: 2rem;
+    color: #6b6868;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.update-box {
+    height: 200px;
+    width: 1000px;
+    background-color: rgb(169, 230, 230);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-box input {
+    padding: 19px 23px;
+    width: 537px;
+    font-size: 2rem;
+    border: none;
+}
+
+/* Footer Section */
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-title {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.footer-des {
+    color: whitesmoke;
+}
+
+footer p {
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
